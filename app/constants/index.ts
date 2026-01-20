@@ -1,17 +1,3 @@
-export interface Resume {
-    id: string;
-    jobTitle: string;
-    companyName?: string;
-    position?: string;
-    status?: string;
-    createdAt?: string;
-    imagePath: string;
-    resumePath: string;
-    feedback: Feedback;
-}
-
-
-
 export const resumes: Resume[] = [
     {
         id: "1",
